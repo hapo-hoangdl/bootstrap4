@@ -71,7 +71,7 @@
 
     .start {
         button {
-            @include size(144px, 45px);
+            padding : 13.5px 33px;
             @include font(14px, none, none);
         }
     }
@@ -297,7 +297,7 @@
 
     .start {
         button {
-            @include size(144px, 40px);
+            padding : 11px 33px;
             font: 14px !important;
         }
     }

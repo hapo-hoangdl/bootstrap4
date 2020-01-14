@@ -8,7 +8,7 @@
 
 .start {
     button {
-        @include size(195px, 50px);
+        padding: 14.5px 52.5px;
         background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
         box-shadow: 1px 1px 2px #888888;
         font: 16px roboto;
