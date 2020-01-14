@@ -1,0 +1,307 @@
+@import url("https://fonts.google.com/specimen/Roboto");
+@import "attribute.scss";
+
+.no-padding {
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+
+.start {
+    button {
+        @include size(195px, 50px);
+        background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
+        box-shadow: 1px 1px 2px #888888;
+        font: 16px roboto;
+
+        border : {
+            color: #8bc34a !important;
+            radius: 100px;
+        }
+    }
+}
+
+.padding-main {
+    padding: 0 20.3%;
+}
+
+.margin-main {
+    margin: 100px 0;
+}
+
+.container-fluid .main {
+    >div {
+        &:nth-child(2) {
+            display: none;
+        }
+
+        &:nth-child(4) {
+            display: none;
+        }
+
+        &:nth-child(6) {
+            display: none;
+        }
+
+        &:nth-child(8) {
+            display: none;
+        }
+
+        &:nth-child(10) {
+            display: none;
+        }
+
+        &:nth-child(13) {
+            display: none;
+        }
+    }
+}
+
+.container-fluid .footer-all {
+    >div {
+        &:nth-child(2) {
+            display: none;
+        }
+    }
+}
+
+.header {
+    @include size(100%, 873px);
+
+    background : {
+        image: url("../image/header-pc.png");
+        size: contain;
+        repeat: no-repeat;
+    }
+
+    .click-button {
+        padding-top: 2%;
+
+        .about-us {
+            text-decoration: none;
+            @include font(12px, black, none);
+            padding: 0.8% 3% 0 0;
+        }
+
+        .sign-in {
+            border-radius: 100px;
+            margin-right: 20px;
+            @include font(12px, none, none);
+            @include size(82px, 36px);
+        }
+    }
+
+    .logo {
+        padding-top: 9.5%;
+    }
+
+    .icon-text {
+        @include font(48px, none, lighter);
+        padding-top: 2.5%;
+        text-align: center;
+
+        .icon-header {
+            width: 290px;
+        }
+
+        p {
+            @include font(36px, none, none);
+        }
+    }
+
+    .text-header {
+        font-size: 18px;
+        padding: 2% 0 1.5% 0;
+    }
+}
+
+// End header
+
+.main {
+    .text {
+        .text-first {
+            @include font(48px, none, lighter);
+
+            i {
+                margin-right: 18px;
+                @include font(30px, none, none);
+            }
+        }
+
+        p {
+            &.text-two {
+                margin: 15px 0 28px 0;
+                @include size(540px, 16px);
+                @include font(14px, none, none);
+            }
+
+            &.text-three {
+                text-align: justify;
+                line-height: 24px;
+                margin-bottom: 40px;
+                @include font(13px, none, none);
+                @include size(555px, 150px);
+            }
+        }
+
+        .text-big {
+            @include font(13px, none, none);
+            margin-bottom: 13px;
+
+            .text-four {
+                div {
+                    margin-left: 15px;
+                    color: #8bc34a;
+                }
+
+                .text {
+                    margin: -2px 0 17px 12px;
+                    line-height: 24px;
+                    overflow-y: hidden;
+                    @include size(525px, 43px);
+                }
+            }
+        }
+    }
+
+    .today {
+        box-shadow: -10px 5px 10px #d8d8d8;
+        padding-bottom: 100px;
+    }
+
+    .customers {
+        box-shadow: 10px -5px 10px #d8d8d8;
+        padding-top: 100px;
+    }
+
+    .today, .customers {
+        .image {
+            margin-right: 15px;
+        }
+    }
+
+    .daily, .project {
+        .image {
+            margin-left: 15px;
+        }
+    }
+
+    .option {
+        background-image: linear-gradient(to right, #429321, #b4ec51);
+        padding: 70px 0;
+
+        .row {
+            margin: 0 !important;
+        }
+
+        .circle {
+            border-radius: 100px;
+            border: 1.5px solid white;
+            @include font(36px, white, lighter);
+            @include size(105px, 105px);
+        }
+
+        .small-circle {
+            border-radius: 100px;
+            border: 1.5px solid white;
+            margin-top: -15px;
+            background-image: linear-gradient(to right, #429321, #b4ec51);
+            @include size(40px, 40px);
+            @include font(24px, white, lighter);
+        }
+
+        .text {
+            color: white;
+            font-size: 15px;
+        }
+    }
+
+    .our-customer {
+        background: url("../image/bannerend.png") no-repeat;
+        color: white;
+        padding: 55px 0;
+
+        h1 {
+            @include font(48px, none, lighter);
+            margin-bottom: 38px;
+        }
+
+        .customer {
+            p {
+                @include font(10px, none, none);
+            }
+        }
+
+        .carousel-indicators {
+            margin-bottom: -20px;
+
+            li {
+                border-radius: 100%;
+                @include size(10px, 10px);
+            }
+        }
+
+        .quote {
+            margin-top: 10px;
+
+            i {
+                font-size: 72px;
+                opacity: 0.4;
+            }
+
+            p {
+                margin: 55px 26px 0 27px;
+                letter-spacing: -0.03px;
+                text-align: justify;
+                @include font(18px, none, none);
+                @include size(750px, 90px);
+            }
+
+            .quote-right {
+                padding-top: 7%;
+            }
+        }
+    }
+}
+
+// End main
+
+.padding-footer {
+    padding: 0 20.3%;
+}
+
+.footer {
+    background-color: #39474e;
+    @include size(none, 179px);
+
+    .hapo-erp {
+        img {
+            @include size(100px, 25px);
+            margin-top: -40px;
+        }
+
+        line-height: 60px;
+    }
+
+    .footer-header {
+        margin-top: 45px;
+
+        p {
+            color: #b4ec51;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .end {
+        i {
+            color: #b4ec51;
+        }
+
+        padding-top: 110px;
+        @include size(150px, none);
+    }
+}// End footer
+

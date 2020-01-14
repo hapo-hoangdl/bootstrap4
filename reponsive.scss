@@ -1,0 +1,496 @@
+@import "attribute.scss";
+
+@media only screen and (max-width: 768px) {
+    .container-fluid .main {
+        >div {
+            &:nth-child(1) {
+                display: none;
+            }
+
+            &:nth-child(3) {
+                display: none;
+            }
+
+            &:nth-child(6) {
+                display: none;
+            }
+
+            &:nth-child(7) {
+                display: none;
+            }
+
+            &:nth-child(9) {
+                display: none;
+            }
+
+            &:nth-child(12) {
+                display: none;
+            }
+
+            &:nth-child(2) {
+                display: block;
+            }
+
+            &:nth-child(4) {
+                display: block;
+            }
+
+            &:nth-child(5) {
+                display: block;
+            }
+
+            &:nth-child(8) {
+                display: block;
+            }
+
+            &:nth-child(10) {
+                display: block;
+            }
+
+            &:nth-child(11) {
+                display: block;
+            }
+
+            &:nth-child(13) {
+                display: block;
+            }
+        }
+    }
+
+    .container-fluid .footer-all {
+        >div {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+
+    .padding-main {
+        padding: 4% 1%;
+    }
+
+    .start {
+        button {
+            @include size(144px, 45px);
+            @include font(14px, none, none);
+        }
+    }
+
+    .header {
+        height: 425px;
+
+        background : {
+            image: url("../image/header-tb.png");
+            size: cover;
+            repeat: no-repeat;
+        }
+
+        .logo {
+            img {
+                margin-top: -4%;
+                @include size(144px, 35px);
+            }
+        }
+
+        .icon-text {
+            margin-top: 2%;
+            @include font(24px, none, none);
+
+            .clock {
+                margin: 0 -17%;
+            }
+
+            p {
+                @include font(24px, none, none);
+            }
+        }
+
+        .text-header {
+            margin: -3% 0 2% 0;
+            @include font(14px, none, none);
+        }
+    }
+
+    // End header
+
+    .padding-footer {
+        padding: 0 2%;
+    }
+
+    .main {
+        .height {
+            @include size(none, 526px);
+        }
+
+        .today-tb-mb {
+            box-shadow: -10px 5px 10px #d8d8d8;
+        }
+
+        .customers-tb-mb {
+            box-shadow: 10px -5px 10px #d8d8d8 !important;
+        }
+
+        .header-main {
+            @include font(36px, none, lighter);
+
+            i {
+                margin: 2.5% 1% 0 0;
+                @include font(30px, none, none);
+            }
+        }
+
+        .quote-main {
+            @include font(14px, none, none);
+            margin-bottom: 3%;
+        }
+
+        .footer-main-img {
+            padding: 0 !important;
+            margin-left: 7px;
+
+            img {
+                @include size(355px, 238px);
+            }
+        }
+
+        .footer-main-text {
+            line-height: 23px;
+            text-align: justify;
+            padding: 0 !important;
+            margin-left: -15px;
+            @include font(13px, none, none);
+
+            p {
+                @include size(355px, 238px);
+            }
+
+            .text-footer {
+                div {
+                    color: #8bc34a;
+                }
+
+                .text {
+                    @include size(325px, 61px);
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .our-customer {
+            .customer {
+                padding: 0 3%;
+            }
+
+            .quote {
+                margin: -30px 0 0 0;
+
+                p {
+                    @include font(18px, none, none);
+                    @include size(570px, 120px);
+                    margin: 12% 0 0 0;
+                }
+
+                i {
+                    @include size(62px, 64px);
+                }
+
+                .quote-left {
+                    margin-left: 1%;
+                }
+
+                .quote-right {
+                    margin-right: 3%;
+                }
+            }
+        }
+    }
+
+    // End main
+
+    .footer {
+        a {
+            @include font(10px, none, none);
+        }
+
+        p {
+            @include font(13px, none, none);
+        }
+
+        img {
+            margin-bottom: 4%;
+        }
+
+        .end {
+            width: 10%;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container-fluid .main {
+        >div {
+            &:nth-child(1) {
+                display: none;
+            }
+
+            &:nth-child(3) {
+                display: none;
+            }
+
+            &:nth-child(5) {
+                display: none;
+            }
+
+            &:nth-child(7) {
+                display: none;
+            }
+
+            &:nth-child(9) {
+                display: none;
+            }
+
+            &:nth-child(10) {
+                display: none;
+            }
+
+            &:nth-child(12) {
+                display: none;
+            }
+
+            &:nth-child(2) {
+                display: block;
+            }
+
+            &:nth-child(4) {
+                display: block;
+            }
+
+            &:nth-child(6) {
+                display: block;
+            }
+
+            &:nth-child(8) {
+                display: block;
+            }
+
+            &:nth-child(11) {
+                display: block;
+            }
+
+            &:nth-child(13) {
+                display: block;
+            }
+        }
+    }
+
+    .container-fluid .footer-all {
+        >div {
+            &:nth-child(2) {
+                display: block;
+            }
+
+            &:nth-child(1) {
+                display: none;
+            }
+        }
+    }
+
+    .start {
+        button {
+            @include size(144px, 40px);
+            font: 14px !important;
+        }
+    }
+
+    .padding-main {
+        padding: 4% 3%;
+    }
+
+    .padding-footer {
+        padding: 5% 2%;
+    }
+
+    .header {
+        height: 266px;
+
+        background : {
+            image: url("../image/header-mb.png");
+            size: cover;
+            repeat: no-repeat;
+        }
+
+        .click-button {
+            .sign-in {
+                margin: 0 7% 0 1%;
+            }
+
+            .about-us {
+                margin-top: 1%;
+            }
+        }
+
+        .logo {
+            img {
+                margin-top: -10%;
+                @include size(96px, 29px);
+            }
+        }
+
+        .icon-text {
+            @include font(18px, none, none);
+            margin-top: -4%;
+
+            p {
+                @include font(18px, none, none);
+            }
+        }
+
+        .text-header {
+            margin: -4% 0 2% 0;
+            @include font(9px, none, none);
+        }
+    }
+
+    // End header
+
+    .main {
+        .header-main {
+            @include font(24px, none, none);
+
+            i {
+                @include font(20px, none, none);
+            }
+        }
+
+        .quote-main {
+            @include font(13px, none, lighter);
+        }
+
+        .footer-main-text {
+            @include font(13px, none, lighter);
+
+            p {
+                @include size(460px, 168px);
+                margin: 2% 0 5% 5%;
+            }
+
+            .text-footer {
+                margin-left: 5%;
+
+                .text {
+                    @include size(431px, 67px);
+                    margin-top: -4%;
+                }
+            }
+        }
+
+        .footer-main-img {
+            img {
+                @include size(460px, 308px);
+                margin-left: -3%;
+            }
+
+            .img-members {
+                img {
+                    @include size(460px, 308px);
+                    margin: 0 0 4% -1.5%;
+                }
+            }
+        }
+
+        .option-tb-mb {
+            background-image: linear-gradient(to right, #429321, #b4ec51);
+
+            .circle {
+                border-radius: 100px;
+                border: 1.5px solid white;
+                @include font(36px, white, lighter);
+                @include size(105px, 105px);
+            }
+
+            .small-circle {
+                border-radius: 100px;
+                border: 1.5px solid white;
+                margin-top: -15px;
+                background-image: linear-gradient(to right, #429321, #b4ec51);
+                @include size(40px, 40px);
+                @include font(24px, white, lighter);
+            }
+
+            p {
+                color: white;
+            }
+
+            .carousel-indicators {
+                margin-bottom: -20px;
+
+                li {
+                    border-radius: 100%;
+                    @include size(10px, 10px);
+                }
+            }
+        }
+
+        .our-customer {
+            .customer {
+                padding: 0 9.5%;
+                margin-left: -9.5%;
+            }
+
+            .quote {
+                margin-top: 1%;
+
+                p {
+                    @include size(460px, 100px);
+                    @include font(14px, none, none);
+                    margin: 80px 0 0 -150px;
+                }
+
+                .quote-left {
+                    margin-left: 5%;
+                    @include font(48px, none, none);
+                }
+            }
+        }
+    }
+
+    // End main
+
+    .footer-tb-mb {
+        background-color: #39474e;
+
+        .hapo-erp {
+            img {
+                @include size(96px, 24px);
+                margin-bottom: 5%;
+            }
+        }
+
+        .footer-header {
+            a {
+                @include font(10px, white, none);
+            }
+
+            p {
+                @include font(13px, #8bc34a, none);
+            }
+        }
+
+        .footer-end {
+            margin-top: 4%;
+
+            .end {
+                a {
+                    @include font(13px, #8bc34a, none);
+                    width: 40px;
+                }
+            }
+
+            .text {
+                @include font(10px, white, none);
+            }
+        }
+    }
+
+    // End footer
+}
