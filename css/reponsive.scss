@@ -90,7 +90,6 @@
 
     .header {
         height: 425px;
-        padding : 0 3%;
 
         background : {
             image: url("../image/header-tb.png");
@@ -122,6 +121,14 @@
             margin: -3% 0 3% 0;
             @include font(14px, none, none);
             letter-spacing: -0.3px;
+        }
+
+        .click-button {
+            padding: 2% 4%;
+
+            .about-us {
+                margin-right: 5px;
+            }
         }
     }
 
@@ -368,13 +375,13 @@
 
         .logo {
             img {
-                margin-top: -6%;
+                margin-top: -7%;
                 @include size(96px, 25px);
             }
         }
 
         .icon-text {
-            margin-top: 2%;
+            margin-top: -1.5%;
             @include font(18px, none, none);
 
             p {
@@ -383,9 +390,13 @@
         }
 
         .text-header {
-            margin: -5.5% 0 0;
+            margin: -4% 0 -1% 0;
             @include font(9px, none, none);
             letter-spacing: -0.5px;
+        }
+
+        .click-button {
+            padding: 3% 8.5%;
         }
     }
 
