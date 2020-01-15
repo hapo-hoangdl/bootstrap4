@@ -106,7 +106,7 @@
         }
 
         .text-header {
-            margin: -3% 0 2% 0;
+            margin: -3% 2% 0;
             @include font(14px, none, none);
         }
     }
@@ -134,7 +134,7 @@
             @include font(36px, none, lighter);
 
             i {
-                margin: 2.5% 1% 0 0;
+                margin: 2.5% 1% 0;
                 @include font(30px, none, none);
             }
         }
@@ -346,7 +346,7 @@
         }
 
         .text-header {
-            margin: -4% 0 2% 0;
+            margin: -4% 2% 0;
             @include font(9px, none, none);
         }
     }

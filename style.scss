@@ -110,7 +110,7 @@
 
     .text-header {
         font-size: 18px;
-        padding: 2% 0 1.5% 0;
+        padding: 2% 1.5% 0;
     }
 }
 
@@ -129,7 +129,7 @@
 
         p {
             &.text-two {
-                margin: 15px 0 28px 0;
+                margin: 15px 28px 0;
                 @include size(540px, 16px);
                 @include font(14px, none, none);
             }
