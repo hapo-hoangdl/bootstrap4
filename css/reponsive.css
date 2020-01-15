@@ -46,7 +46,6 @@
 
   .header {
     height: 425px;
-    padding: 0 3%;
     background-image: url("../image/header-tb.png");
     background-size: cover;
     background-repeat: no-repeat; }
@@ -71,6 +70,10 @@
       color: none;
       font-weight: none;
       letter-spacing: -0.3px; }
+    .header .click-button {
+      padding: 2% 4%; }
+      .header .click-button .about-us {
+        margin-right: 5px; }
 
   .padding-footer {
     padding: 0 2%; }
@@ -220,11 +223,11 @@
     .header .start {
       padding-top: 4%; }
     .header .logo img {
-      margin-top: -6%;
+      margin-top: -7%;
       width: 96px;
       height: 25px; }
     .header .icon-text {
-      margin-top: 2%;
+      margin-top: -1.5%;
       font-size: 18px;
       color: none;
       font-weight: none; }
@@ -233,11 +236,13 @@
         color: none;
         font-weight: none; }
     .header .text-header {
-      margin: -5.5% 0 0;
+      margin: -4% 0 -1% 0;
       font-size: 9px;
       color: none;
       font-weight: none;
       letter-spacing: -0.5px; }
+    .header .click-button {
+      padding: 3% 8.5%; }
 
   .main .header-main {
     font-size: 24px;

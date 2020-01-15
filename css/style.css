@@ -44,7 +44,7 @@
   background-size: contain;
   background-repeat: no-repeat; }
   .header .click-button {
-    padding-top: 2%; }
+    padding: 2% 20.3%; }
     .header .click-button .about-us {
       text-decoration: none;
       padding: 0.8% 3% 0 0;
@@ -53,14 +53,13 @@
       font-weight: none; }
     .header .click-button .sign-in {
       border-radius: 100px;
-      margin-right: 20px;
       font-size: 12px;
       color: none;
       font-weight: none;
       width: 82px;
       height: 36px; }
   .header .logo {
-    padding-top: 9.5%; }
+    padding-top: 7.5%; }
   .header .icon-text {
     padding-top: 2.5%;
     text-align: center;

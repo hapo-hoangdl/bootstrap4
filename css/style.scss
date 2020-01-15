@@ -82,7 +82,7 @@
     }
 
     .click-button {
-        padding-top: 2%;
+        padding: 2% 20.3%;
 
         .about-us {
             text-decoration: none;
@@ -92,14 +92,13 @@
 
         .sign-in {
             border-radius: 100px;
-            margin-right: 20px;
             @include font(12px, none, none);
             @include size(82px, 36px);
         }
     }
 
     .logo {
-        padding-top: 9.5%;
+        padding-top: 7.5%;
     }
 
     .icon-text {
