@@ -50,7 +50,15 @@
             display: none;
         }
 
+        &:nth-child(12) {
+            display: none;
+        }
+
         &:nth-child(13) {
+            display: none;
+        }
+
+        &:nth-child(15) {
             display: none;
         }
     }
@@ -110,7 +118,7 @@
 
     .text-header {
         font-size: 18px;
-        padding: 2% 1.5% 0;
+        padding: 2% 0 1.5% 0;
     }
 }
 
@@ -129,7 +137,7 @@
 
         p {
             &.text-two {
-                margin: 15px 28px 0;
+                margin: 15px 0 28px 0;
                 @include size(540px, 16px);
                 @include font(14px, none, none);
             }
@@ -212,10 +220,10 @@
     .our-customer {
         background: url("../image/bannerend.png") no-repeat;
         color: white;
-        padding: 55px 0;
+        padding: 3% 20.3%;
 
         h1 {
-            margin-bottom: 38px;
+            padding-bottom: 3%;
             @include font(48px, none, lighter);
         }
 
@@ -236,6 +244,7 @@
 
         .quote {
             margin-top: 10px;
+            padding: 0 8%;
 
             i {
                 font-size: 72px;
@@ -247,11 +256,10 @@
                 letter-spacing: -0.03px;
                 text-align: justify;
                 @include font(18px, none, none);
-                @include size(750px, 90px);
             }
 
             .quote-right {
-                padding-top: 7%;
+                padding-top: 13%;
             }
         }
     }

@@ -11,8 +11,8 @@
                 display: none;
             }
 
-            &:nth-child(6) {
-                display: none;
+            &:nth-child(5) {
+                display: block;
             }
 
             &:nth-child(7) {
@@ -23,7 +23,19 @@
                 display: none;
             }
 
-            &:nth-child(12) {
+            &:nth-child(10) {
+                display: none;
+            }
+
+            &:nth-child(11) {
+                display: none;
+            }
+
+            &:nth-child(13) {
+                display: none;
+            }
+
+            &:nth-child(14) {
                 display: none;
             }
 
@@ -35,8 +47,8 @@
                 display: block;
             }
 
-            &:nth-child(5) {
-                display: block;
+            &:nth-child(6) {
+                display: none;
             }
 
             &:nth-child(8) {
@@ -47,11 +59,11 @@
                 display: block;
             }
 
-            &:nth-child(11) {
+            &:nth-child(12) {
                 display: block;
             }
 
-            &:nth-child(13) {
+            &:nth-child(15) {
                 display: block;
             }
         }
@@ -66,18 +78,19 @@
     }
 
     .padding-main {
-        padding: 4% 1%;
+        padding: 4% 3%;
     }
 
     .start {
         button {
-            padding : 13.5px 33px;
+            padding: 13.5px 33px;
             @include font(14px, none, none);
         }
     }
 
     .header {
         height: 425px;
+        padding : 0 3%;
 
         background : {
             image: url("../image/header-tb.png");
@@ -87,17 +100,17 @@
 
         .logo {
             img {
-                margin-top: -4%;
+                margin-top: -8%;
                 @include size(144px, 35px);
             }
         }
 
         .icon-text {
-            margin-top: 2%;
+            margin-top: -1.5%;
             @include font(24px, none, none);
 
             .clock {
-                margin: 0 -17%;
+                margin: 0 -18%;
             }
 
             p {
@@ -106,8 +119,9 @@
         }
 
         .text-header {
-            margin: -3% 2% 0;
+            margin: -3% 0 3% 0;
             @include font(14px, none, none);
+            letter-spacing: -0.3px;
         }
     }
 
@@ -118,10 +132,6 @@
     }
 
     .main {
-        .height {
-            @include size(none, 526px);
-        }
-
         .today-tb-mb {
             box-shadow: -10px 5px 10px #d8d8d8;
         }
@@ -146,22 +156,20 @@
 
         .footer-main-img {
             padding: 0 !important;
-            margin-left: 7px;
 
             img {
-                @include size(355px, 238px);
+                @include size(355px,238px);
             }
         }
 
         .footer-main-text {
-            line-height: 23px;
+            line-height: 21px;
             text-align: justify;
             padding: 0 !important;
-            margin-left: -15px;
             @include font(13px, none, none);
 
             p {
-                @include size(355px, 238px);
+                @include size(355px,238px);
             }
 
             .text-footer {
@@ -176,30 +184,53 @@
             }
         }
 
-        .our-customer {
+        .option {
+            padding: 1% 0;
+        }
+
+        .our-customer-tb {
+            background: url("../image/our-tb.png") no-repeat;
+            color: white;
+            padding: 5% 2%;
+
+            h1 {
+                padding-bottom: 3%;
+                @include font(36px, none, lighter);
+                letter-spacing: -0.07px;
+            }
+
             .customer {
-                padding: 0 3%;
+                p {
+                    @include font(10px, none, none);
+                }
+            }
+
+            .carousel-indicators {
+                margin-bottom: -20px;
+
+                li {
+                    border-radius: 100%;
+                    @include size(10px, 10px);
+                }
             }
 
             .quote {
-                margin: -30px 0 0;
-
-                p {
-                    margin: 12% 0 0;
-                    @include font(18px, none, none);
-                    @include size(570px, 120px);
-                }
+                margin-top: 10px;
 
                 i {
-                    @include size(62px, 64px);
+                    font-size: 64px;
+                    opacity: 0.4;
                 }
 
-                .quote-left {
-                    margin-left: 1%;
+                p {
+                    margin: 10% 0 0 0;
+                    letter-spacing: -0.03px;
+                    text-align: justify;
+                    @include font(18px, none, none);
                 }
 
                 .quote-right {
-                    margin-right: 3%;
+                    padding-top: 13%;
                 }
             }
         }
@@ -253,7 +284,15 @@
                 display: none;
             }
 
+            &:nth-child(11) {
+                display: none;
+            }
+
             &:nth-child(12) {
+                display: none;
+            }
+
+            &:nth-child(14) {
                 display: none;
             }
 
@@ -273,11 +312,15 @@
                 display: block;
             }
 
-            &:nth-child(11) {
+            &:nth-child(10) {
                 display: block;
             }
 
             &:nth-child(13) {
+                display: block;
+            }
+
+            &:nth-child(15) {
                 display: block;
             }
         }
@@ -297,7 +340,7 @@
 
     .start {
         button {
-            padding : 11px 33px;
+            padding: 11px 33px;
             font: 14px !important;
         }
     }
@@ -319,25 +362,19 @@
             repeat: no-repeat;
         }
 
-        .click-button {
-            .sign-in {
-                margin: 0 7% 1%;
-            }
-
-            .about-us {
-                margin-top: 1%;
-            }
+        .start {
+            padding-top: 4%;
         }
 
         .logo {
             img {
-                margin-top: -10%;
-                @include size(96px, 29px);
+                margin-top: -6%;
+                @include size(96px, 25px);
             }
         }
 
         .icon-text {
-            margin-top: -4%;
+            margin-top: 2%;
             @include font(18px, none, none);
 
             p {
@@ -346,8 +383,9 @@
         }
 
         .text-header {
-            margin: -4% 2% 0;
+            margin: -5.5% 0 0;
             @include font(9px, none, none);
+            letter-spacing: -0.5px;
         }
     }
 
@@ -370,15 +408,14 @@
             @include font(13px, none, lighter);
 
             p {
-                margin: 2% 0 5% 5%;
                 @include size(460px, 168px);
             }
 
             .text-footer {
-                margin-left: 5%;
-
+                margin: 0 0 2% 2.5%;
+                
                 .text {
-                    margin-top: -4%;
+                    margin: -4% 0 0 4%;
                     @include size(431px, 67px);
                 }
             }
@@ -386,7 +423,6 @@
 
         .footer-main-img {
             img {
-                margin-left: -3%;
                 @include size(460px, 308px);
             }
 
@@ -431,25 +467,47 @@
             }
         }
 
-        .our-customer {
+        .our-customer-mb {
+            background: url("../image/our-tb.png") no-repeat;
+            color: white;
+            padding: 3% 2%;
+
+            h1 {
+                padding-bottom: 3%;
+                @include font(24px, none, lighter);
+                letter-spacing: -0.05px;
+            }
+
             .customer {
-                padding: 0 9.5%;
-                margin-left: -9.5%;
+                p {
+                    @include font(10px, none, none);
+                }
+            }
+
+            .carousel-indicators {
+                margin-bottom: -20px;
+
+                li {
+                    border-radius: 100%;
+                    @include size(10px, 10px);
+                }
             }
 
             .quote {
-                margin-top: 1%;
+                margin-top: 10px;
+
+                i {
+                    font-size: 48px;
+                    opacity: 0.4;
+                }
 
                 p {
-                    margin: 80px 0 0 -150px;
-                    @include size(460px, 100px);
+                    letter-spacing: -0.03px;
+                    text-align: justify;
                     @include font(14px, none, none);
+                    margin-bottom: -20px;
                 }
 
-                .quote-left {
-                    margin-left: 5%;
-                    @include font(48px, none, none);
-                }
             }
         }
     }
@@ -494,3 +552,5 @@
 
     // End footer
 }
+
+//End
