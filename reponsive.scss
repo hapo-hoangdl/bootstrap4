@@ -140,8 +140,8 @@
         }
 
         .quote-main {
-            @include font(14px, none, none);
             margin-bottom: 3%;
+            @include font(14px, none, none);
         }
 
         .footer-main-img {
@@ -170,8 +170,8 @@
                 }
 
                 .text {
-                    @include size(325px, 61px);
                     overflow: hidden;
+                    @include size(325px, 61px);
                 }
             }
         }
@@ -182,12 +182,12 @@
             }
 
             .quote {
-                margin: -30px 0 0 0;
+                margin: -30px 0 0;
 
                 p {
+                    margin: 12% 0 0;
                     @include font(18px, none, none);
                     @include size(570px, 120px);
-                    margin: 12% 0 0 0;
                 }
 
                 i {
@@ -321,7 +321,7 @@
 
         .click-button {
             .sign-in {
-                margin: 0 7% 0 1%;
+                margin: 0 7% 1%;
             }
 
             .about-us {
@@ -337,8 +337,8 @@
         }
 
         .icon-text {
-            @include font(18px, none, none);
             margin-top: -4%;
+            @include font(18px, none, none);
 
             p {
                 @include font(18px, none, none);
@@ -370,30 +370,30 @@
             @include font(13px, none, lighter);
 
             p {
-                @include size(460px, 168px);
                 margin: 2% 0 5% 5%;
+                @include size(460px, 168px);
             }
 
             .text-footer {
                 margin-left: 5%;
 
                 .text {
-                    @include size(431px, 67px);
                     margin-top: -4%;
+                    @include size(431px, 67px);
                 }
             }
         }
 
         .footer-main-img {
             img {
-                @include size(460px, 308px);
                 margin-left: -3%;
+                @include size(460px, 308px);
             }
 
             .img-members {
                 img {
-                    @include size(460px, 308px);
                     margin: 0 0 4% -1.5%;
+                    @include size(460px, 308px);
                 }
             }
         }
@@ -441,9 +441,9 @@
                 margin-top: 1%;
 
                 p {
+                    margin: 80px 0 0 -150px;
                     @include size(460px, 100px);
                     @include font(14px, none, none);
-                    margin: 80px 0 0 -150px;
                 }
 
                 .quote-left {
@@ -461,8 +461,8 @@
 
         .hapo-erp {
             img {
-                @include size(96px, 24px);
                 margin-bottom: 5%;
+                @include size(96px, 24px);
             }
         }
 
@@ -481,8 +481,8 @@
 
             .end {
                 a {
-                    @include font(13px, #8bc34a, none);
                     width: 40px;
+                    @include font(13px, #8bc34a, none);
                 }
             }
 
