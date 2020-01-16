@@ -78,45 +78,47 @@
 .main .text {
   width: 50%; }
   .main .text .text-first {
-    font-size: 48px;
+    font-size: 2.3vw;
     color: none;
     font-weight: lighter; }
     .main .text .text-first i {
       margin-right: 18px;
-      font-size: 30px;
+      font-size: 1.5vw;
       color: none;
       font-weight: none; }
   .main .text p.text-two {
     margin: 15px 0 28px 0;
-    font-size: 14px;
+    font-size: 0.65vw;
     color: none;
     font-weight: none; }
   .main .text p.text-three {
     text-align: justify;
     line-height: 24px;
     margin-bottom: 40px;
-    font-size: 13px;
+    font-size: 0.6vw;
     color: none;
     font-weight: none; }
   .main .text .text-big {
     margin-bottom: 13px; }
     .main .text .text-big .text-four div {
       color: #8bc34a;
-      padding-right: 3%; }
+      padding-right: 3%;
+      font-size: 0.8vw;
+      color: none;
+      font-weight: none; }
     .main .text .text-big .text-four .text {
       line-height: 24px;
       overflow-y: hidden;
       text-align: justify;
       width: 100%;
       height: 50px;
-      font-size: 13px;
+      font-size: 0.6vw;
       color: none;
       font-weight: none; }
 .main .image {
   width: 50%; }
   .main .image img {
-    width: 100%;
-    height: 389px; }
+    width: 100%; }
 .main .today {
   box-shadow: -10px 5px 10px #d8d8d8;
   padding-bottom: 100px; }
@@ -158,27 +160,44 @@
     font-size: 48px;
     color: none;
     font-weight: lighter; }
-  .main .our-customer .customer p {
-    font-size: 10px;
-    color: none;
-    font-weight: none; }
+  .main .our-customer .customer {
+    cursor: pointer; }
+    .main .our-customer .customer p {
+      font-size: 10px;
+      color: none;
+      font-weight: none; }
+    .main .our-customer .customer:hover {
+      transform: scale(1.1, 1.1); }
+  .main .our-customer .carousel-inner {
+    padding: 10px 5px; }
   .main .our-customer .carousel-indicators {
     margin-bottom: -20px; }
     .main .our-customer .carousel-indicators li {
+      background-color: unset;
+      border: 1px solid #979797;
       border-radius: 100%;
       width: 10px;
-      height: 10px; }
+      height: 10px;
+      margin: 0 10px; }
+    .main .our-customer .carousel-indicators .active {
+      background-color: #FFFFFF; }
   .main .our-customer .quote {
     margin-top: 10px;
     padding: 0 8%; }
     .main .our-customer .quote i {
-      font-size: 72px;
-      opacity: 0.4; }
+      opacity: 0.4;
+      font-size: 4vw;
+      color: none;
+      font-weight: none; }
     .main .our-customer .quote p {
       margin: 55px 26px 0 27px;
       letter-spacing: -0.03px;
       text-align: justify;
       font-size: 18px;
+      color: none;
+      font-weight: none; }
+    .main .our-customer .quote .quote-main p {
+      font-size: 0.9vw;
       color: none;
       font-weight: none; }
     .main .our-customer .quote .quote-right {
@@ -187,7 +206,10 @@
 .footer {
   background-color: #39474e;
   width: none;
-  height: 179px; }
+  height: 179px;
+  font-size: 0.7vw;
+  color: none;
+  font-weight: none; }
   .footer .hapo-erp {
     line-height: 60px; }
     .footer .hapo-erp img {
@@ -207,3 +229,5 @@
     height: none; }
     .footer .end i {
       color: #b4ec51; }
+
+/*# sourceMappingURL=style.css.map */
