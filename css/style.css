@@ -12,10 +12,10 @@
   border-radius: 100px; }
 
 .padding-main {
-  padding: 0 20.3%; }
+  padding: 100px 18.5%; }
 
-.margin-main {
-  margin: 100px 0; }
+.padding-footer {
+  padding: 0 19.5%; }
 
 .container-fluid .main > div:nth-child(2) {
   display: none; }
@@ -100,34 +100,32 @@
   color: none;
   font-weight: none;
   width: 555px;
-  height: 150px; }
+  height: 168px; }
 .main .text .text-big {
-  margin-bottom: 13px;
-  font-size: 13px;
-  color: none;
-  font-weight: none; }
+  margin-bottom: 13px; }
   .main .text .text-big .text-four div {
-    margin-left: 15px;
-    color: #8bc34a; }
+    color: #8bc34a;
+    padding-right: 3%; }
   .main .text .text-big .text-four .text {
-    margin: -2px 0 17px 12px;
     line-height: 24px;
     overflow-y: hidden;
-    width: 525px;
+    font-size: 13px;
+    color: none;
+    font-weight: none;
+    width: 555px;
     height: 43px; }
+.main .img img {
+  width: 100%;
+  height: 389px; }
 .main .today {
   box-shadow: -10px 5px 10px #d8d8d8;
   padding-bottom: 100px; }
-  .main .today .image {
-    margin-right: 15px; }
 .main .customers {
   box-shadow: 10px -5px 10px #d8d8d8;
   padding-top: 100px; }
-  .main .customers .image {
-    margin-right: 15px; }
 .main .option {
   background-image: linear-gradient(to right, #429321, #b4ec51);
-  padding: 70px 0; }
+  padding: 0 0; }
   .main .option .row {
     margin: 0 !important; }
   .main .option .circle {
@@ -185,9 +183,6 @@
       font-weight: none; }
     .main .our-customer .quote .quote-right {
       padding-top: 13%; }
-
-.padding-footer {
-  padding: 0 20.3%; }
 
 .footer {
   background-color: #39474e;
