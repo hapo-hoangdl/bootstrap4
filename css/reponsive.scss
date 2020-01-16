@@ -176,19 +176,20 @@
             @include font(13px, none, none);
 
             p {
-                @include size(355px,none);
+                @include size(94.5%,none);
             }
 
             .text-footer {
-                @include size(355px, 61px);
+                @include size(94.5%, 75px);
 
                 div {
+                    padding: 0 10px 0 16px;
                     color: #8bc34a;
-                    padding-right: 15px;
                 }
 
                 .text {
                     overflow: hidden;
+                    width: 100%;
                 }
             }
         }
@@ -219,7 +220,13 @@
 
                 li {
                     border-radius: 100%;
+                    background-color: unset;
+                    border: 1px solid rgb(151, 151, 151);
                     @include size(10px, 10px);
+                }
+
+                 .active {
+                    background-color: #FFFFFF;
                 }
             }
 
@@ -422,13 +429,8 @@
             letter-spacing: 0;
 
             .text-footer {
-                margin: 0 0 2% 2.5%;
-                
-                .text {
-                    margin: -2% 0 0 4%;
-                    @include size(100%, 67px);
-                    letter-spacing: 0;
-                }
+                padding: 0 0 0 3%;
+                    @include size(100%, 75px);
             }
         }
 
@@ -496,6 +498,13 @@
                 li {
                     border-radius: 100%;
                     @include size(10px, 10px);
+                    background-color: unset;
+                    border: 1px solid rgb(151, 151, 151);
+                    @include size(10px, 10px);
+                }
+
+                 .active {
+                    background-color: #FFFFFF;
                 }
             }
 

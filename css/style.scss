@@ -128,25 +128,25 @@
         width: 50%;
 
         .text-first {
-            @include font(48px, none, lighter);
+            @include font(2.3vw, none, lighter);
 
             i {
                 margin-right: 18px;
-                @include font(30px, none, none);
+                @include font(1.5vw, none, none);
             }
         }
 
         p {
             &.text-two {
                 margin: 15px 0 28px 0;
-                @include font(14px, none, none);
+                @include font(0.65vw, none, none);
             }
 
             &.text-three {
                 text-align: justify;
                 line-height: 24px;
                 margin-bottom: 40px;
-                @include font(13px, none, none);
+                @include font(0.6vw, none, none);
             }
         }
 
@@ -157,14 +157,15 @@
                 div {
                     color: #8bc34a;
                     padding-right: 3%;
+                    @include font(0.8vw, none, none);
                 }
 
                 .text {
                     line-height: 24px;
                     overflow-y: hidden;
                     text-align: justify;
-                    @include size(100%,50px);
-                    @include font(13px, none, none);
+                    @include size(100%, 50px);
+                    @include font(0.6vw, none, none);
                 }
             }
         }
@@ -175,7 +176,6 @@
 
         img {
             width: 100%;
-            height: 389px;
         }
     }
 
@@ -233,14 +233,31 @@
             p {
                 @include font(10px, none, none);
             }
+
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.1, 1.1);
+            }
+        }
+
+        .carousel-inner {
+            padding: 10px 5px;
         }
 
         .carousel-indicators {
             margin-bottom: -20px;
 
             li {
+                background-color: unset;
+                border: 1px solid rgb(151, 151, 151);
                 border-radius: 100%;
                 @include size(10px, 10px);
+                margin: 0 10px;
+            }
+
+            .active {
+                background-color: #FFFFFF;
             }
         }
 
@@ -249,8 +266,8 @@
             padding: 0 8%;
 
             i {
-                font-size: 72px;
                 opacity: 0.4;
+                @include font(4vw,none,none);
             }
 
             p {
@@ -258,6 +275,12 @@
                 letter-spacing: -0.03px;
                 text-align: justify;
                 @include font(18px, none, none);
+            }
+
+            .quote-main {
+                p {
+                @include font(0.9vw,none,none);
+                }
             }
 
             .quote-right {
@@ -272,6 +295,7 @@
 .footer {
     background-color: #39474e;
     @include size(none, 179px);
+    @include font(0.7vw,none,none);
 
     .hapo-erp {
         img {

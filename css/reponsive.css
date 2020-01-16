@@ -109,16 +109,17 @@
     color: none;
     font-weight: none; }
     .main .footer-main-text p {
-      width: 355px;
+      width: 94.5%;
       height: none; }
     .main .footer-main-text .text-footer {
-      width: 355px;
-      height: 61px; }
+      width: 94.5%;
+      height: 75px; }
       .main .footer-main-text .text-footer div {
-        color: #8bc34a;
-        padding-right: 15px; }
+        padding: 0 10px 0 16px;
+        color: #8bc34a; }
       .main .footer-main-text .text-footer .text {
-        overflow: hidden; }
+        overflow: hidden;
+        width: 100%; }
   .main .option {
     padding: 1% 0; }
   .main .our-customer-tb {
@@ -139,8 +140,12 @@
       margin-bottom: -20px; }
       .main .our-customer-tb .carousel-indicators li {
         border-radius: 100%;
+        background-color: unset;
+        border: 1px solid #979797;
         width: 10px;
         height: 10px; }
+      .main .our-customer-tb .carousel-indicators .active {
+        background-color: #FFFFFF; }
     .main .our-customer-tb .quote {
       margin-top: 10px; }
       .main .our-customer-tb .quote i {
@@ -264,12 +269,9 @@
     font-weight: lighter;
     letter-spacing: 0; }
     .main .footer-main-text .text-footer {
-      margin: 0 0 2% 2.5%; }
-      .main .footer-main-text .text-footer .text {
-        margin: -2% 0 0 4%;
-        width: 100%;
-        height: 67px;
-        letter-spacing: 0; }
+      padding: 0 0 0 3%;
+      width: 100%;
+      height: 75px; }
   .main .footer-main-img .img-members img {
     margin: 0 0 4% -1.5%; }
   .main .option-tb-mb {
@@ -319,7 +321,13 @@
       .main .our-customer-mb .carousel-indicators li {
         border-radius: 100%;
         width: 10px;
+        height: 10px;
+        background-color: unset;
+        border: 1px solid #979797;
+        width: 10px;
         height: 10px; }
+      .main .our-customer-mb .carousel-indicators .active {
+        background-color: #FFFFFF; }
     .main .our-customer-mb .quote {
       margin-top: 10px; }
       .main .our-customer-mb .quote i {
@@ -358,3 +366,5 @@
         font-size: 10px;
         color: white;
         font-weight: none; } }
+
+/*# sourceMappingURL=reponsive.css.map */
