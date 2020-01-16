@@ -139,6 +139,12 @@
     }
 
     .main {
+        .start {
+            button {
+                margin-top: 20px;
+            }
+        }
+
         .today-tb-mb {
             box-shadow: -10px 5px 10px #d8d8d8;
         }
@@ -333,10 +339,6 @@
                 display: block;
             }
 
-            &:nth-child(10) {
-                display: block;
-            }
-
             &:nth-child(13) {
                 display: block;
             }
@@ -434,15 +436,23 @@
             letter-spacing: 0;
 
             .text-footer {
-                padding: 0 0 0 3%;
-                    @include size(100%, 75px);
+                @include size(96%, 75px);
+
+                p {
+                    margin-top: -5px;
+                }
             }
         }
 
         .footer-main-img {
+            img {
+                width: 94.5%;
+            }
+
             .img-members {
                 img {
-                    margin: 0 0 4% -1.5%;
+                    margin: 0 0 4% 2.5%;
+                    width: 94.5%;
                 }
             }
         }
@@ -470,12 +480,23 @@
                 color: white;
             }
 
+            .carousel-item {
+                padding: 20px 0;
+            }
+
             .carousel-indicators {
                 margin-bottom: -20px;
 
                 li {
                     border-radius: 100%;
+                    background-color: unset;
+                    margin: 30px 10px;
+                    border: 1px solid rgb(151, 151, 151);
                     @include size(10px, 10px);
+                }
+
+                 .active {
+                    background-color: #FFFFFF;
                 }
             }
         }
@@ -501,10 +522,10 @@
                 margin-bottom: -20px;
 
                 li {
+                    margin: 0 10px;
                     border-radius: 100%;
                     background-color: unset;
                     border: 1px solid rgb(151, 151, 151);
-                    margin: 0 10px;
                     @include size(10px, 10px);
                 }
 
