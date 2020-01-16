@@ -38,10 +38,9 @@
   display: none; }
 
 .header {
-  width: 100%;
   height: 873px;
   background-image: url("../image/header-pc.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat; }
   .header .click-button {
     padding: 2% 20.3%; }
@@ -76,47 +75,48 @@
     font-size: 18px;
     padding: 2% 0 1.5% 0; }
 
-.main .text .text-first {
-  font-size: 48px;
-  color: none;
-  font-weight: lighter; }
-  .main .text .text-first i {
-    margin-right: 18px;
-    font-size: 30px;
+.main .text {
+  width: 50%; }
+  .main .text .text-first {
+    font-size: 48px;
+    color: none;
+    font-weight: lighter; }
+    .main .text .text-first i {
+      margin-right: 18px;
+      font-size: 30px;
+      color: none;
+      font-weight: none; }
+  .main .text p.text-two {
+    margin: 15px 0 28px 0;
+    font-size: 14px;
     color: none;
     font-weight: none; }
-.main .text p.text-two {
-  margin: 15px 0 28px 0;
-  width: 540px;
-  height: 16px;
-  font-size: 14px;
-  color: none;
-  font-weight: none; }
-.main .text p.text-three {
-  text-align: justify;
-  line-height: 24px;
-  margin-bottom: 40px;
-  font-size: 13px;
-  color: none;
-  font-weight: none;
-  width: 555px;
-  height: 168px; }
-.main .text .text-big {
-  margin-bottom: 13px; }
-  .main .text .text-big .text-four div {
-    color: #8bc34a;
-    padding-right: 3%; }
-  .main .text .text-big .text-four .text {
+  .main .text p.text-three {
+    text-align: justify;
     line-height: 24px;
-    overflow-y: hidden;
+    margin-bottom: 40px;
     font-size: 13px;
     color: none;
-    font-weight: none;
-    width: 555px;
-    height: 43px; }
-.main .img img {
-  width: 100%;
-  height: 389px; }
+    font-weight: none; }
+  .main .text .text-big {
+    margin-bottom: 13px; }
+    .main .text .text-big .text-four div {
+      color: #8bc34a;
+      padding-right: 3%; }
+    .main .text .text-big .text-four .text {
+      line-height: 24px;
+      overflow-y: hidden;
+      text-align: justify;
+      width: 100%;
+      height: 50px;
+      font-size: 13px;
+      color: none;
+      font-weight: none; }
+.main .image {
+  width: 50%; }
+  .main .image img {
+    width: 100%;
+    height: 389px; }
 .main .today {
   box-shadow: -10px 5px 10px #d8d8d8;
   padding-bottom: 100px; }

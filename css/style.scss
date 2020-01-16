@@ -73,11 +73,11 @@
 }
 
 .header {
-    @include size(100%, 873px);
+    height: 873px;
 
     background : {
         image: url("../image/header-pc.png");
-        size: contain;
+        size: cover;
         repeat: no-repeat;
     }
 
@@ -125,6 +125,8 @@
 
 .main {
     .text {
+        width: 50%;
+
         .text-first {
             @include font(48px, none, lighter);
 
@@ -137,7 +139,6 @@
         p {
             &.text-two {
                 margin: 15px 0 28px 0;
-                @include size(540px, 16px);
                 @include font(14px, none, none);
             }
 
@@ -146,7 +147,6 @@
                 line-height: 24px;
                 margin-bottom: 40px;
                 @include font(13px, none, none);
-                @include size(555px,168px);
             }
         }
 
@@ -162,14 +162,17 @@
                 .text {
                     line-height: 24px;
                     overflow-y: hidden;
+                    text-align: justify;
+                    @include size(100%,50px);
                     @include font(13px, none, none);
-                    @include size(555px,43px);
                 }
             }
         }
     }
 
-    .img {
+    .image {
+        width: 50%;
+
         img {
             width: 100%;
             height: 389px;
