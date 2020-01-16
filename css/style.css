@@ -129,8 +129,8 @@
 .main .option {
   background-image: linear-gradient(to right, #429321, #b4ec51);
   padding: 0 0; }
-  .main .option .row {
-    margin: 0 !important; }
+  .main .option .row .text {
+    width: 69px; }
   .main .option .circle {
     border-radius: 100px;
     border: 1.5px solid white;
