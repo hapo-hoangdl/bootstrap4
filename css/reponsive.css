@@ -303,6 +303,8 @@
       font-weight: lighter; }
     .main .option-tb-mb p {
       color: white; }
+    .main .option-tb-mb .text {
+      width: 69px; }
     .main .option-tb-mb .carousel-item {
       padding: 20px 0; }
     .main .option-tb-mb .carousel-indicators {

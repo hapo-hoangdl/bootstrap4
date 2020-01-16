@@ -195,7 +195,9 @@
         padding: 0 0;
 
         .row {
-            margin: 0 !important;
+            .text {
+                width: 69px;
+            }
         }
 
         .circle {
