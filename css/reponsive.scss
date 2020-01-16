@@ -176,17 +176,19 @@
             @include font(13px, none, none);
 
             p {
-                @include size(355px,238px);
+                @include size(355px,none);
             }
 
             .text-footer {
+                @include size(355px, 61px);
+
                 div {
                     color: #8bc34a;
+                    padding-right: 15px;
                 }
 
                 .text {
                     overflow: hidden;
-                    @include size(325px, 61px);
                 }
             }
         }
@@ -264,7 +266,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 375px) and (max-width: 479px) {
     .container-fluid .main {
         >div {
             &:nth-child(1) {
@@ -417,30 +419,23 @@
 
         .footer-main-text {
             @include font(13px, none, lighter);
-
-            p {
-                @include size(460px, 168px);
-            }
+            letter-spacing: 0;
 
             .text-footer {
                 margin: 0 0 2% 2.5%;
                 
                 .text {
-                    margin: -4% 0 0 4%;
-                    @include size(431px, 67px);
+                    margin: -2% 0 0 4%;
+                    @include size(100%, 67px);
+                    letter-spacing: 0;
                 }
             }
         }
 
         .footer-main-img {
-            img {
-                @include size(460px, 308px);
-            }
-
             .img-members {
                 img {
                     margin: 0 0 4% -1.5%;
-                    @include size(460px, 308px);
                 }
             }
         }
