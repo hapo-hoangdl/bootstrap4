@@ -281,6 +281,8 @@
   .main .footer-main-img .img-members img {
     margin: 0 0 4% 2.5%;
     width: 94.5%; }
+  .main .today-tb-mb .footer-main-text p, .main .project-tb-mb .footer-main-text p {
+    padding-top: 15px; }
   .main .option-tb-mb {
     background-image: linear-gradient(to right, #429321, #b4ec51); }
     .main .option-tb-mb .circle {
