@@ -139,14 +139,14 @@
         p {
             &.text-two {
                 margin: 15px 0 28px 0;
-                @include font(0.65vw, none, none);
+                @include font(0.75vw, none, none);
             }
 
             &.text-three {
                 text-align: justify;
                 line-height: 24px;
                 margin-bottom: 40px;
-                @include font(0.6vw, none, none);
+                @include font(0.7vw, none, none);
             }
         }
 
@@ -157,15 +157,16 @@
                 div {
                     color: #8bc34a;
                     padding-right: 3%;
-                    @include font(0.8vw, none, none);
+                    @include font(0.7vw, none, none);
                 }
 
                 .text {
                     line-height: 24px;
                     overflow-y: hidden;
                     text-align: justify;
+                    margin-top: -7px;
                     @include size(100%, 50px);
-                    @include font(0.6vw, none, none);
+                    @include font(0.7vw, none, none);
                 }
             }
         }

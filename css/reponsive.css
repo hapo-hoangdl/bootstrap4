@@ -78,6 +78,8 @@
   .padding-footer {
     padding: 0 2%; }
 
+  .main .start button {
+    margin-top: 20px; }
   .main .today-tb-mb {
     box-shadow: -10px 5px 10px #d8d8d8; }
   .main .customers-tb-mb {
@@ -203,8 +205,6 @@
     display: block; }
   .container-fluid .main > div:nth-child(8) {
     display: block; }
-  .container-fluid .main > div:nth-child(10) {
-    display: block; }
   .container-fluid .main > div:nth-child(13) {
     display: block; }
   .container-fluid .main > div:nth-child(15) {
@@ -272,11 +272,15 @@
     font-weight: lighter;
     letter-spacing: 0; }
     .main .footer-main-text .text-footer {
-      padding: 0 0 0 3%;
-      width: 100%;
+      width: 96%;
       height: 75px; }
+      .main .footer-main-text .text-footer p {
+        margin-top: -5px; }
+  .main .footer-main-img img {
+    width: 94.5%; }
   .main .footer-main-img .img-members img {
-    margin: 0 0 4% -1.5%; }
+    margin: 0 0 4% 2.5%;
+    width: 94.5%; }
   .main .option-tb-mb {
     background-image: linear-gradient(to right, #429321, #b4ec51); }
     .main .option-tb-mb .circle {
@@ -299,12 +303,19 @@
       font-weight: lighter; }
     .main .option-tb-mb p {
       color: white; }
+    .main .option-tb-mb .carousel-item {
+      padding: 20px 0; }
     .main .option-tb-mb .carousel-indicators {
       margin-bottom: -20px; }
       .main .option-tb-mb .carousel-indicators li {
         border-radius: 100%;
+        background-color: unset;
+        margin: 30px 10px;
+        border: 1px solid #979797;
         width: 10px;
         height: 10px; }
+      .main .option-tb-mb .carousel-indicators .active {
+        background-color: #FFFFFF; }
   .main .our-customer-mb {
     background: url("../image/our-tb.png") no-repeat;
     color: white;
@@ -322,10 +333,10 @@
     .main .our-customer-mb .carousel-indicators {
       margin-bottom: -20px; }
       .main .our-customer-mb .carousel-indicators li {
+        margin: 0 10px;
         border-radius: 100%;
         background-color: unset;
         border: 1px solid #979797;
-        margin: 0 10px;
         width: 10px;
         height: 10px; }
       .main .our-customer-mb .carousel-indicators .active {
